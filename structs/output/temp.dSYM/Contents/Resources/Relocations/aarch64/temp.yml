@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/C files/structs/output/temp'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _populate, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0x6C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _populate, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0x6C }
+  - { offsetInCU: 0x6A, offset: 0x6A, size: 0x8, addend: 0x0, symName: _populateInfo, symObjAddr: 0x6C, symBinAddr: 0x100003E58, symSize: 0x6C }
+  - { offsetInCU: 0xAA, offset: 0xAA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xD8, symBinAddr: 0x100003EC4, symSize: 0x9C }
+...

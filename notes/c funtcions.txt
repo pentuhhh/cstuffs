@@ -1,0 +1,42 @@
+strlen() - takes a string and returns the number of characters as an unsigned integer
+
+strcpy() - syntax: char *strcpy(char * destination, char *source); 
+    this string.h function will copy all contents of a string into another
+        it does not handle memory mismatch properly
+        if the source string is longer, there will be a buffer overflow and the behavior is undefined
+
+strcat() - syntax: char *strcat(char * destination, char * source);
+    appends the source string to the end of the destination string
+        char * source can be also replaced with a direct quote instead of a character pointer
+        the behavior of the function is underfined if there is a memory overlap,
+        destination array is not large enough, either array is not a null terminated (i think if there is no sentinel
+        like \0)
+
+strrev() - syntax: char *strrev (char * str);
+    This reverses the string - abcd into dcba
+
+strtok() - syntax: char *str(char *str, const char *delim)
+    this function receives a string and a delimiter
+    a delimit can be a direct quote like "," or an array of characters such as " ," (space and comma)
+
+    what this function will do is replace the delimiters in the array with a null terminator or \0
+    for example, if an array "Hello world,im here" is passed to the function, with a delimiter " ,"
+    the string will become "hello\0world\0im\0here".
+
+    strtok does not create a new string nor does it alter the memory. it simply changes certain values and returns
+    an address within the array
+
+
+gets() - syntax: char *gets(char *str);
+    This function will read the user input and store the input as a string until a newline character is found
+    this is more effective than scanf("%s") since gets will not terminate when it encounters a space
+
+puts() - int puts(char*string)
+    This function will accept a string and print it Output
+        if there is no error, it will return a non-negative values otherwise, it will return an EOF error
+    
+    this function can only print strings and it will append a newline character automatically. this function
+    will also not read any format specifiers
+
+
+

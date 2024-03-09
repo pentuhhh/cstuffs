@@ -1,0 +1,22 @@
+is_() functions -
+    syntax : int is_(int c)
+    these functions are essentially if statements. These functions will check if a character
+    is an alphabet, digit, space, punctuation, uppercase, lowercase
+
+    this is done by the use of ascii values
+    
+    the function checks if the ascii value is in the range of a certain parameter
+
+    isdigit - 48 to 57
+    isspace - 32
+    isalpha - 65-90 or 97-122
+    isuppercase - 65-90
+    islowercase - 97-122
+    ispunct - "! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { | } ~"
+
+toupper() - subtract 32 to the ascci value of an uppercase character
+        a = 97, A = 97-32 = 65
+tolower() - adds 32 to the ascii value of a uppercase character 
+        A = 65, a = 65+32 = 97
+        
+        *note that if a character is already lowercase or uppercase, it will be ignored

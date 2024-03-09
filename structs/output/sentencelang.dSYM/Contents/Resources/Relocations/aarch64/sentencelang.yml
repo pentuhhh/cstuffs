@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/C files/structs/output/sentencelang'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B8C, symSize: 0x114 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B8C, symSize: 0x114 }
+  - { offsetInCU: 0x8B, offset: 0x8B, size: 0x8, addend: 0x0, symName: _getString, symObjAddr: 0x114, symBinAddr: 0x100003CA0, symSize: 0xFC }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _printSentence, symObjAddr: 0x210, symBinAddr: 0x100003D9C, symSize: 0x78 }
+  - { offsetInCU: 0x11A, offset: 0x11A, size: 0x8, addend: 0x0, symName: _commonOfTwo, symObjAddr: 0x288, symBinAddr: 0x100003E14, symSize: 0x124 }
+...

@@ -1,0 +1,84 @@
+Bubble sort, moving the smallest to the beginning (right to left)
+
+for(i = length-1; i >= 0; i--){
+
+        //printing purposes
+        for(k = 0; k < length; k++){
+        printf("%i\t", array[k]);
+        }
+        printf("\n");
+        //
+
+        for(j = length-1; j >= 0; j--){
+            if(array[j] < array[(j - 1)] && j != 0){
+                swap(&array[j], &array[(j-1)]);
+            }
+
+        
+        }
+    }
+
+Bubble sort, moving the largest to the end (left to right)
+
+for(i = 0; i < length; i++){
+
+        //printing purposes
+        for(k = 0; k < length; k++){
+        printf("%i\t", array[k]);
+        }
+        printf("\n");
+        //
+
+        for(j = 0; j < length - 1; j++){
+            if(array[j] > array[(j + 1)]){
+                swap(&array[j], &array[(j+1)]);
+            }
+
+        
+        }
+    }
+
+Insertion sort (shifting)
+
+    for(i = 1; i < 4; i++){
+        j = i;
+        while(j > 0 && array[j-1] > array[j]){
+            swap(&array[j],&array[j-1]);
+            j--;
+        }
+    }
+
+Insertion sort (swapping)
+
+    for(i = 1; i < length; i++){
+        for(j = i; j > 0; j--){
+            if(array[j] < array[(j-1)]){
+                swap(&array[j],&array[(j-1)]);
+            }
+        }
+    }
+
+Selection sort
+    for(i = 0; i < length; i++){
+        min = i;
+        for(j = i; j < length; j++){
+            if(array[min] > array[j]){
+                min = j;
+            }
+
+        
+        }
+        swap(&array[i], &array[min]);
+    }
+
+strtok psuedocode
+
+hey there guys
+
+delim " "
+
+for loop
+if array[i] = "32" then return ptr = &array[(i+1)]
+
+for printing stringtoken
+print until array[i] = "32"

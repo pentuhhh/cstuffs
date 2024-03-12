@@ -2,5 +2,5 @@
 #define MENU_H
 
 void printMenu();
-
+void stackFunctionsMenu();
 #endif 

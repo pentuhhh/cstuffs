@@ -10,3 +10,10 @@ void printMenu(){
     printf("[5] Ordered List Mode\n");
     printf("[6] Set Mode\n\n");
 }
+
+void stackFunctionsMenu(){
+    printf("\n\tStack Mode\t");
+    printf("[1] Push\n");
+    printf("[2] Pop\n");
+    printf("[3] Go back\n");
+}

@@ -1,0 +1,43 @@
+Structures
+    composite data type where it is a group of variables under a name
+
+    Rules:
+    Members can have different data types (e.g., int, char, float).
+    Access members using the dot (.) operator: myStructInstance.age.
+    Memory for all members is allocated sequentially.
+    You can nest structures within other structures.
+
+Unions
+
+    structure but the same memory allocation for its members
+
+    Rules:
+    Members share memory, so only one member can hold a value at a time.
+    Size of the union is determined by the largest member.
+    Useful for scenarios where you need to represent different data types in the same memory space.
+
+Enums
+    It is a set of integer constants 
+
+    Rules:
+    Enum values are assigned consecutive integers starting from 0 (unless explicitly specified).
+    You can assign custom values: enum Days { MON = 1, TUE = 2, ... }.
+    Enums improve code readability by giving meaningful names to constants.
+
+Typedef
+    Used to create aliases for datatypes
+
+Difference Between . (Dot) and -> (Arrow) Operators:
+    . (Dot) Operator:
+        Used to access members of a structure or union directly.
+        Syntax: structInstance.memberName or unionInstance.memberName.
+        Example: person1.age or myUnion.intValue.
+    -> (Arrow) Operator:
+        Used with pointers to structures or unions.
+        Dereferences the pointer and accesses the member.
+        Equivalent to (*pointer).memberName.
+        Example: personPtr->age or unionPtr->intValue.
+Significance:
+    The -> operator simplifies accessing structure or union members through pointers.
+    It automatically dereferences the pointer and accesses the correct member.
+    Helps avoid explicit pointer dereferencing.

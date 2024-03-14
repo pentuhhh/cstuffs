@@ -1,0 +1,29 @@
+File processing for Data
+    it is bad. why is it bad?
+        duplication of Data
+        lack of centralized control
+        programmers need to make their own file format
+        expensive to maintain
+
+    all of these will result in data dependency
+
+    Datadependency is so bad because programmers for each app
+    must maintain their own data, which leads to duplicates and 
+    inconsistency.
+
+    programmers will have to expend the extra effort to develop its own
+    metadata, processing routines for manipulating data. there will be 
+    some sort also in difficulty for managing and coordinating data and the
+    custom file formats will inevitably create incompatibility issues
+
+    Solution? ise a database management system to maintain and provide access 
+    to user data, and essentially eliminating data dependency, data redundancy
+    providing program data independence and having a structured control system
+    for users and administrators
+
+    elements in a database
+        Entities are objects; noun
+        Relationships are a result of entities interacting with each other or itself
+
+        relational databases are complex relationships involving tables of entities
+        rather than a singular one

@@ -12,8 +12,9 @@ void printMenu(){
 }
 
 void stackFunctionsMenu(){
-    printf("\n\tStack Mode\t");
+    printf("\n\tStack Mode\t\n");
     printf("[1] Push\n");
     printf("[2] Pop\n");
     printf("[3] Go back\n");
+    printf("[4] Exit\n");
 }

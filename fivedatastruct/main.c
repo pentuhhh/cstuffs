@@ -6,6 +6,9 @@
 #include "back.c"
 #include "back.h"
 
+#include "stackmode.c"
+#include "stackmode.h"
+
 
 int main(){
     //define main working stack here
@@ -24,6 +27,9 @@ int main(){
     while(run == 0){
         if(mode == 1){
             showStack(&mainstack);
+        }
+        if(mode == 2){
+            stackModeMain(&mainstack);
         }
         printMenu();
         mode = getIntInput(6);

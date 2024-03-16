@@ -1,12 +1,8 @@
 #ifndef BACK_H
 #define BACK_H
 
-struct stackParameters {
-    int top;
-    int size;
-    int *data;
-    
-};
-struct strackParameters debugData();
-
+void init(struct stackParameters *mainstack);
+void processInit();
+void programView(struct stackParameters *mainstack);
+void devil();
 #endif

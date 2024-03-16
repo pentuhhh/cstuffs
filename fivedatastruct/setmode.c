@@ -7,60 +7,60 @@
 #define p printf
 
 void setModeMain(struct stackParameters *mainstack){
-    setmodeFunctionsMenu();
     char confirmation[1];
     int mode = 0;
-
-    printf("!!! WARNING !!!\n");
-    printf("This function will eliminate any duplicates in the Stack\n");
+    system("clear");
+    printf("/\t\t\t!!! WARNING !!!\n");
+    printf("/\tThis function will eliminate any duplicates in the Stack\n");
     while(confirmation[0] != 'Y' && confirmation[0] != 'y' && confirmation[0] != 'N' && confirmation[0] != 'n'){
-        printf("Confirm? (Y/N): ");
+        
         scanf("%c", &confirmation[0]);
+        printf("/ <c:\\user\\admin>: Confirm? (Y/N): ");
     }
 
     if(confirmation[0] == 'Y' || confirmation[0] == 'y'){
         setmodeFunctionsMenu();
         filter(mainstack);
 
-        while(mode != 4){
-        p("Select Function: ");
-        mode = singleInput();
+        while(mode != 3){
+        system("clear");
+            programView(mainstack);
+            showStack(mainstack);
+            setmodeFunctionsMenu();
+            printf("\n/ <c:\\user\\admin>: ");
+            mode = singleInput();
         if(mode == 1){
             setPush(mainstack);
             filter(mainstack);
         } else if(mode == 2){
             listExtract(mainstack);
             filter(mainstack);
-        } else if(mode == 3){
-            showStack(mainstack);
-            filter(mainstack);
         }
-        listFunctionsMenu();
     }
     }
 }
 
 void setmodeFunctionsMenu(){
-    p("\t Set Mode \t\n");
-    p("[1] Push\n");
-    p("[2] Extract\n");
-    p("[3] Show Data\n");
-    p("[4] Exit\n");
+   p("\n/\t\t\t set Mode \t\n");
+    p("/\t\t[1] Push\n");
+    p("/\t\t[2] Extract\n");
+    p("/\t\t[3] Exit\n/");
 }
 
 void setPush(struct stackParameters *mainstack){
     int complete = 0;
     mainstack->top += 1;
     while(complete == 0){
+            printf("/ <c:\\user\\admin>: ");
         p("Input: ");
         int temp = singleInput();
         int isPresent = notDuplicate(mainstack, temp);
         if(isPresent == 0){
             mainstack->data[mainstack->top] = temp;
             complete = 1;
-            printf("accepted\n");
+            printf("/\taccepted\n");
         } else {
-            printf("!!! WARNING !!! Value Rejected: Already Present\n");
+            printf("/\t\t\t!!! WARNING !!! Value Rejected: Already Present\n");
         }
     }
     

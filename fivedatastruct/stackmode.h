@@ -18,4 +18,5 @@ void stackModeMain(struct stackParameters *mainstack);
 void stackPush(struct stackParameters *mainstack);
 void stackPop(struct stackParameters *mainstack);
 void stackFunctionsMenu();
+
 #endif

@@ -9,20 +9,24 @@
 
 
 void stackModeMain(struct stackParameters *mainstack){
-    stackFunctionsMenu();
     int mode = 0;
 
-    while(mode != 4){
-        p("Select Function: ");
+    while(mode != 3){
+        system("clear");
+        programView(mainstack);
+        showStack(mainstack);
+        stackFunctionsMenu();
+        printf("/\n/ <c:\\user\\admin>: ");
         mode = singleInput();
         if(mode == 1){
             stackPush(mainstack);
         } else if(mode == 2){
             stackPop(mainstack);
-        } else if(mode == 3){
-            showStack(mainstack);
         }
-        stackFunctionsMenu();
+
+    }
+    if(mode == 3){
+        system("clear");
     }
 
     
@@ -30,6 +34,7 @@ void stackModeMain(struct stackParameters *mainstack){
 
 void stackPush(struct stackParameters *mainstack){
     mainstack->top += 1;
+    printf("/ <c:\\user\\admin>: ");
     p("Input: ");
     int temp = singleInput();
     mainstack->data[mainstack->top] = temp;
@@ -46,16 +51,15 @@ void stackPop(struct stackParameters *mainstack){
 }
 
 void stackFunctionsMenu(){
-    p("\t Stack Mode \t\n");
-    p("[1] Push\n");
-    p("[2] Pop\n");
-    p("[3] Show Data\n");
-    p("[4] Exit\n");
+    p("\n/\t\t\t Stack Mode \t\n");
+    p("/\t\t[1] Push\n");
+    p("/\t\t[2] Pop\n");
+    p("/\t\t[3] Exit\n");
 }
 
 int getIntInput(int n){
     int temp = 0;
-    printf("Input: ");
+    printf("\n/ <c:\\user\\admin>: ");
     temp = singleInput();
 
     if(temp < 0){
@@ -70,15 +74,17 @@ int getIntInput(int n){
 }
 
 void showStack(struct stackParameters *mainstack){
+    system("clear");
     int i;
+    programView(mainstack);
+    printf("\tStack Data: ");
     if(mainstack->top > -1){
-        printf("Stack Data: ");
         for(i = 0; i <= mainstack->top; i++){
             printf("%d ", mainstack->data[i]);
         }
-        printf("\n");
+        printf("");
     } else {
-        printf("There is no Data: \n");
+        printf("/\tThere is no Data!");
     }
 
 }
@@ -104,10 +110,7 @@ struct stackParameters debugdata(){
         
     }
 
-    printf("!!! RANDOM DATA INITIALIZED !!!\n\n");
-    printf("\tTOP: %d\tSize: %d\n\n", tempstack.top, tempstack.size);
-    printf("!!! VERSION 1 READY !!!\n\n");
-    
 
     return tempstack;
 }
+

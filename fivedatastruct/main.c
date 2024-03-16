@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
+#include "back.c"
+#include "back.h"
 
 #include "stackmode.c"
 #include "stackmode.h"
@@ -18,51 +21,60 @@
 #include "setmode.h"
 
 void printMenu(){
-    p("\tMenu\t\n");
-    p("[1] Show stack\n");
-    p("[2] Stack Mode\n");
-    p("[3] Queue Mode\n");
-    p("[4] List Mode\n");
-    p("[5] Ordered List Mode\n");
-    p("[6] Set Mode\n");
-    p("[7] Exit\n");
+    p("\n/\t\t\tMenu\t\n");
+    p("/\t\t[1] Stack Mode\n");
+    p("/\t\t[2] Queue Mode\n");
+    p("/\t\t[3] List Mode\n");
+    p("/\t\t[4] Ordered List Mode\n");
+    p("/\t\t[5] Set Mode\n");
+    p("/\t\t[6] Exit\n/");
 }
 
 int main(){
-    //define main working stack here
-    //struct stackParameters mainstack;
-
-    //mainstack.top = -1;
-    //mainstack.size = 100;
-    //allocate memory for data array;
-    //mainstack.data = (int *)calloc(mainstack.size, sizeof(int));
-
+    
+    system("clear");
     struct stackParameters mainstack;
     mainstack = debugdata();
     int mode = 0;
     int run = 0;
+
+    init(&mainstack);
+    
     while(run == 0){
+        
+        system("clear");
+       
         if(mode == 1){
-            showStack(&mainstack);
-        }
-        if(mode == 2){
+                system("clear");
+
             stackModeMain(&mainstack);
         }
-        if(mode == 3){
+        if(mode == 2){
+                    system("clear");
+
             queueModeMain(&mainstack);
         }
-        if(mode == 4){
+        if(mode == 3){
             listModeMain(&mainstack);
         }
-        if(mode == 5){
+        if(mode == 4){
             orderedlistModeMain(&mainstack);
         }
-        if(mode == 6){
+        if(mode == 5){
             setModeMain(&mainstack);
         }
+        showStack(&mainstack);
         printMenu();
-        mode = getIntInput(7);
-        if(mode == 7){
+        mode = getIntInput(6);
+        if(mode == 6){
+            system("clear");
+            devil();
+            usleep(1000 * 1000);
+            system("clear");
+            printf("/ Program closing\n");
+            usleep(500 * 1000);
+            printf("/ Upload Complete");
+            
             run = 1;
         }
     }

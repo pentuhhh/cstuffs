@@ -6,33 +6,36 @@ void queueModeMain(struct stackParameters *mainstack){
     queueFunctionsMenu();
     int mode = 0;
 
-    while(mode != 4){
-        p("Select Function: ");
+    while(mode != 3){
+        system("clear");
+        programView(mainstack);
+        showStack(mainstack);
+        queueFunctionsMenu();
+        printf("/\n/ <c:\\user\\admin>: ");
         mode = singleInput();
         if(mode == 1){
             queuePush(mainstack);
         } else if(mode == 2){
             queuePop(mainstack);
-        } else if(mode == 3){
-            showStack(mainstack);
         }
-        stackFunctionsMenu();
     }
+
+    system("clear");
 
     
 }
 
 
 void queueFunctionsMenu(){
-    p("\t Queue Mode \t\n");
-    p("[1] Push\n");
-    p("[2] Pop\n");
-    p("[3] Show Data\n");
-    p("[4] Exit\n");
+    p("\n/\t\t\t Queue Mode \t\n");
+    p("/\t\t[1] Push\n");
+    p("/\t\t[2] Pop\n");
+    p("/\t\t[3] Exit\n");
 }
 
 void queuePush(struct stackParameters *mainstack){
     mainstack->top += 1;
+    printf("/ <c:\\user\\admin>: ");
     p("Input: ");
     int temp = singleInput();
     mainstack->data[mainstack->top] = temp;

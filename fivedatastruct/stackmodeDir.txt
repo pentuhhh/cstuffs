@@ -1,0 +1,9 @@
+stackModeMain denotes
+    will print stack menu Operations
+        1 for stackpush s.t will receive address of mainstack
+            
+        2 for stackPop s.t will receive address of mainstack
+
+        3 For showdata
+
+        4 for exit into main.c

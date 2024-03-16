@@ -1,14 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "menu.c"
-#include "menu.h"
 
-#include "back.c"
-#include "back.h"
 
 #include "stackmode.c"
 #include "stackmode.h"
 
+#include "queuemode.c"
+#include "queuemode.h"
+
+#include "listmode.c"
+#include "listmode.h"
+
+#include "orderedlistmode.c"
+#include "orderedlistmode.h"
+
+#include "setmode.c"
+#include "setmode.h"
+
+void printMenu(){
+    p("\tMenu\t\n");
+    p("[1] Show stack\n");
+    p("[2] Stack Mode\n");
+    p("[3] Queue Mode\n");
+    p("[4] List Mode\n");
+    p("[5] Ordered List Mode\n");
+    p("[6] Set Mode\n");
+    p("[7] Exit\n");
+}
 
 int main(){
     //define main working stack here
@@ -21,7 +39,6 @@ int main(){
 
     struct stackParameters mainstack;
     mainstack = debugdata();
-
     int mode = 0;
     int run = 0;
     while(run == 0){
@@ -31,9 +48,23 @@ int main(){
         if(mode == 2){
             stackModeMain(&mainstack);
         }
+        if(mode == 3){
+            queueModeMain(&mainstack);
+        }
+        if(mode == 4){
+            listModeMain(&mainstack);
+        }
+        if(mode == 5){
+            orderedlistModeMain(&mainstack);
+        }
+        if(mode == 6){
+            setModeMain(&mainstack);
+        }
         printMenu();
-        mode = getIntInput(6);
-        
+        mode = getIntInput(7);
+        if(mode == 7){
+            run = 1;
+        }
     }
     
     

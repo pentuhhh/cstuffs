@@ -1,5 +1,8 @@
 Application of Structures:
-Structures are fundamental building blocks in programming. They allow you to group related data elements together. One common application of structures is creating abstract data types (ADTs) that represent specific behaviors. Here’s an example:
+Structures are fundamental building blocks in programming. They allow you to group related data elements together. 
+One common application of structures is creating abstract data types (ADTs) that represent specific behaviors. 
+
+Here’s an example:
 
 ADT: List
 A list is a collection of elements of the same type arranged in a sequential order.

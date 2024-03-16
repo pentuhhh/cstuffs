@@ -6,7 +6,7 @@
 #include <unistd.h>
 
 
-void init(struct stackParameters *mainstack){
+void init1(){
     processInit();
     
 
@@ -36,7 +36,7 @@ void processInit(){
         fflush(stdout);
         usleep((rand() % 51)* 1000);
     }
-    printf("\n\n");
+    printf("\n/\n");
 
     printf("/Initializing Stack\n/\n/");
     for(i = 0; i < 100; i++){
@@ -98,5 +98,5 @@ void devil(){
     printf("⠀⠀⠀⠀⠀⠀⠀⠈⢿⡀⠀⠐⠒⠒⠒⠀⠀⣼⠃⠀⠀⠀⠀⠀⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢤⣀⣀⣀⣀⣠⠜⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⣉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-    printf("\033[0m");
+    printf("\033[0;35m");
 }

@@ -38,13 +38,13 @@ int main(){
     int mode = 0;
     int run = 0;
 
-    init(&mainstack);
+    init1();
     
     while(run == 0){
-        
         system("clear");
        
         if(mode == 1){
+
                 system("clear");
 
             stackModeMain(&mainstack);

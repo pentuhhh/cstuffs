@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/C files/githubrepo/mycstuffs/midtermexampractices/studentlist/output/deleteallcourse'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _debugData, symObjAddr: 0x0, symBinAddr: 0x100003938, symSize: 0x25C }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: _debugData, symObjAddr: 0x0, symBinAddr: 0x100003938, symSize: 0x25C }
+  - { offsetInCU: 0x10D, offset: 0x10D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x25C, symBinAddr: 0x100003B94, symSize: 0x238 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _shift, symObjAddr: 0x494, symBinAddr: 0x100003DCC, symSize: 0xA0 }
+  - { offsetInCU: 0x183, offset: 0x183, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x534, symBinAddr: 0x100003E6C, symSize: 0x8C }
+...

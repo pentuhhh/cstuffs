@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1711988300.52823 "/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/termpaper1/termpaper1.tex" "termpaper1.pdf" "termpaper1" 1711988300.65027 0
-  "/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/termpaper1/termpaper1.tex" 1711988300.17286 3363 4ccc806339a3b38a7161c2faef11f10e ""
+["pdflatex"] 1712050847.09928 "/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/termpaper1/termpaper1.tex" "termpaper1.pdf" "termpaper1" 1712050847.21954 0
+  "/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/termpaper1/termpaper1.tex" 1712050846.94102 3363 4ccc806339a3b38a7161c2faef11f10e ""
   "/Users/bastionii/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/Users/bastionii/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Users/bastionii/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -44,8 +44,8 @@
   "/Users/bastionii/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1711854896 92935 ab22f987f93038b61e05dc32d7c07157 ""
   "/Users/bastionii/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1711854926 6813459 2a9ede83bec2676433495a5c9a2b4814 ""
   "/Users/bastionii/Library/TinyTeX/texmf.cnf" 1711854844 637 edd806fb06a89761a6034e1968af9017 ""
-  "termpaper1.aux" 1711988300.62815 240 418dcef8e5928e07acdb242bf6c2dbc0 "pdflatex"
-  "termpaper1.tex" 1711988300.17286 3363 4ccc806339a3b38a7161c2faef11f10e ""
+  "termpaper1.aux" 1712050847.19725 240 418dcef8e5928e07acdb242bf6c2dbc0 "pdflatex"
+  "termpaper1.tex" 1712050846.94102 3363 4ccc806339a3b38a7161c2faef11f10e ""
   (generated)
   "termpaper1.aux"
   "termpaper1.log"

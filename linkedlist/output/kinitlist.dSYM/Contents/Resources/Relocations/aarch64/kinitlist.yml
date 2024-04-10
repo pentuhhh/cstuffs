@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bastionii/Documents/C files/githubrepo/mycstuffs/linkedlist/output/kinitlist'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D14, symSize: 0x6C }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D14, symSize: 0x6C }
+  - { offsetInCU: 0xA6, offset: 0xA6, size: 0x8, addend: 0x0, symName: _insert_at_end, symObjAddr: 0x6C, symBinAddr: 0x100003D80, symSize: 0x88 }
+  - { offsetInCU: 0xF4, offset: 0xF4, size: 0x8, addend: 0x0, symName: _insert_at_beginning, symObjAddr: 0xF4, symBinAddr: 0x100003E08, symSize: 0x54 }
+  - { offsetInCU: 0x134, offset: 0x134, size: 0x8, addend: 0x0, symName: _insert_at_index, symObjAddr: 0x148, symBinAddr: 0x100003E5C, symSize: 0xBC }
+  - { offsetInCU: 0x1AC, offset: 0x1AC, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x204, symBinAddr: 0x100003F18, symSize: 0x74 }
+...

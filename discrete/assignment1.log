@@ -1,0 +1,168 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  3 APR 2024 22:02
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex"
+(/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+(/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count196
+\l__pdf_internal_box=\box51
+) (./assignment1.aux)
+\openout1 = `assignment1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+
+Overfull \hbox (14.97363pt too wide) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/10 More gen-er-ally, for ran-dom vari-ables $\OML/cmm/m/it/10 X[]; X[]; [] ; X[]$ \OT1/cmr/m/n/10 and con-stants $\OML/cmm/m/it/10 c[]; c[]; [] ; c[];$ 
+ []
+
+
+/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex:12: LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \[\begin{align*}
+                      E[X+Y] &= \sum_{x}\sum_{y} \big[(x+y)\cdot P(X=x,Y=y)\...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex:12: Misplaced alignment tab character &.
+l.12 \[\begin{align*} E[X+Y] &
+                              = \sum_{x}\sum_{y} \big[(x+y)\cdot P(X=x,Y=y)\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex:12: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.12 ...m_{y} \big[(x+y)\cdot P(X=x,Y=y)\big] \\ &
+                                                  =\sum_{x}\sum_{y} \big[x\c...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex:12: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.12 ...}\sum_{y} \big[y\cdot P(X=x,Y=y)\big] \\ &
+                                                  =\sum_{x}x\underbrace{\sum...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex:12: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.12 ...erbrace{\sum_{x} P(X=x,Y=y)}_{P(Y=y)} \\ &
+                                                  =\sum_{x}x\cdot P(X=x) + \...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex:12: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.12 ...\cdot P(X=x) + \sum_{y}y \cdot P(Y=y) \\ &
+                                                  =E[X] + E[Y]. \end{align*}\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/assignment1.tex:12: LaTeX Error: \begin{document} ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...cdot P(Y=y) \\ &=E[X] + E[Y]. \end{align*}
+                                                  \]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (597.8605pt too wide) detected at line 12
+\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Y\OT1/cmr/m/n/10 ] = [] [] [](\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x; Y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[][]  = [] [] []\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x; Y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[] + [] [] []\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x; Y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[][]  = [] \OML/cmm/m/it/10 x [] \OT1/cmr/m/n/10 + [] \OML/cmm/m/it/10 y [] []  \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + [] \OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[]  = \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 ] + \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 Y\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :
+ []
+
+[1
+
+{/Users/bastionii/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./assignment1.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 429 strings out of 476064
+ 8590 string characters out of 5791904
+ 1931493 words of memory out of 5000000
+ 22628 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 35i,8n,50p,484b,109s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on assignment1.pdf (1 page, 63360 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

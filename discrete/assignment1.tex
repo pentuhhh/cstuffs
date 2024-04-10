@@ -1,8 +1,14 @@
 \documentclass{article}
 
 \begin{document}
+For random variables \(X\) and \(Y\) (which may be dependent),
 
-This is an inline equation: $E = mc^2$. Next up is a displayed equation:
-\[ \int_{S^1} \frac{dz}{z} = 2 \pi i. \]
+\[E[X+Y] = E[X]+E[Y].\]
+
+More generally, for random variables \(X_1,X_2,\ldots,X_n\) and constants \(c_1,c_2,\ldots,c_n,\)
+
+\[E\left[\sum_{i=1}^{n} c_i X_i\right] = \sum_{i=1}^{n} \big(c_i \cdot E\left[X_i\right]\big). \]
+
+\[\begin{align*} E[X+Y] &= \sum_{x}\sum_{y} \big[(x+y)\cdot P(X=x,Y=y)\big] \\ &=\sum_{x}\sum_{y} \big[x\cdot P(X=x,Y=y)\big] + \sum_{x}\sum_{y} \big[y\cdot P(X=x,Y=y)\big] \\ &=\sum_{x}x\underbrace{\sum_{y} P(X=x,Y=y)}_{P(X=x)} + \sum_{y}y\underbrace{\sum_{x} P(X=x,Y=y)}_{P(Y=y)} \\ &=\sum_{x}x\cdot P(X=x) + \sum_{y}y \cdot P(Y=y) \\ &=E[X] + E[Y]. \end{align*}\]
 
 \end{document}

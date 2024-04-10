@@ -1,8 +1,8 @@
-PWD /Users/bastionii/Documents/C files/githubrepo/networking
+PWD /Users/bastionii/Documents/C files/githubrepo/mycstuffs/networking/Network Layer
 INPUT /Users/bastionii/Library/TinyTeX/texmf.cnf
 INPUT /Users/bastionii/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
 INPUT /Users/bastionii/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex
+INPUT /Users/bastionii/Documents/C files/githubrepo/mycstuffs/networking/Network Layer/NetworkLayer.tex
 OUTPUT NetworkLayer.log
 INPUT /Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 INPUT /Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls

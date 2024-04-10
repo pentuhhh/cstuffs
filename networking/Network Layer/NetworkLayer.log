@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  10 APR 2024 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  10 APR 2024 23:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex"
-(/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex
+**"/Users/bastionii/Documents/C files/githubrepo/mycstuffs/networking/Network Layer/NetworkLayer.tex"
+(/Users/bastionii/Documents/C files/githubrepo/mycstuffs/networking/Network Layer/NetworkLayer.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -122,7 +122,7 @@ Underfull \hbox (badness 1009) in paragraph at lines 130--130
 []|\OT1/cmr/m/n/10 Detect cor-rup-tion n the IPv4
  []
 
-[2] [3] [4] (./NetworkLayer.aux)
+[2] [3] [4] [5] (./NetworkLayer.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -130,17 +130,17 @@ L3 programming layer <2024-03-14>
  ) 
 Here is how much of TeX's memory you used:
  1104 strings out of 476064
- 19150 string characters out of 5791904
+ 19222 string characters out of 5791904
  1941493 words of memory out of 5000000
  23281 multiletter control sequences out of 15000+600000
  559317 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,10n,65p,269b,220s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,293b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/bastionii/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on NetworkLayer.pdf (4 pages, 75262 bytes).
+Output written on NetworkLayer.pdf (5 pages, 76498 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

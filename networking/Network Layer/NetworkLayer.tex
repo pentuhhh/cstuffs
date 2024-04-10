@@ -334,4 +334,50 @@ IP is media independent since:
         \item Default Routes - S*
     \end{itemize}
 \end{flushleft}
+
+\section{\textbf{Ethernet Frame Deciphering}}
+\begin{flushleft}
+    Identify the Ethernet Header (14 bytes):
+
+    \begin{itemize}
+        \item The first 6 bytes represent the Destination MAC Address.
+        \item The next 6 bytes represent the Source MAC Address.
+        \item The last 2 bytes represent the EtherType, which indicates the type of the payload.
+
+    \end{itemize}
+        
+    Identify the IP Header (20 bytes for IPv4):
+
+    \begin{itemize}
+        \item The first byte represents the Version and IHL (Internet Header Length).
+        \item The next byte represents the DSCP (Differentiated Services Code Point) and ECN (Explicit Congestion Notification).
+        \item The next 2 bytes represent the Total Length of the IP packet.
+        \item The next 2 bytes represent the Identification.
+        \item The next 2 bytes represent the Flags and Fragment Offset.
+        \item The next byte represents the TTL (Time To Live).
+        \item The next byte represents the Protocol.
+        \item The next 2 bytes represent the Header Checksum.
+        \item The next 4 bytes represent the Source IP Address.
+        \item The last 4 bytes represent the Destination IP Address.
+    \end{itemize}
+
+    Identify the TCP Header (20 bytes minimum)
+
+    \begin{itemize}
+        \item The first 2 bytes represent the Source Port.
+        \item The next 2 bytes represent the Destination Port.
+        \item The next 4 bytes represent the Sequence Number.
+        \item The next 4 bytes represent the Acknowledgment Number.
+        \item The next 2 bytes represent the Data Offset, Reserved, and Flags.
+        \item The next 2 bytes represent the Window Size.
+        \item The next 2 bytes represent the Checksum.
+        \item The next 2 bytes represent the Urgent Pointer.
+        \item The remaining bytes represent the Options (if any).
+    \end{itemize}
+
+
+
+        
+
+\end{flushleft}
 \end{document}

@@ -1,0 +1,813 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  10 APR 2024 21:28
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex"
+(/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+(/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen141
+\ar@mcellbox=\box51
+\extrarowheight=\dimen142
+\NC@list=\toks17
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box52
+) (/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count196
+\l__pdf_internal_box=\box53
+)
+No file NetworkLayer.aux.
+\openout1 = `NetworkLayer.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+Overfull \hbox (14.66722pt too wide) in paragraph at lines 43--44
+[]\OT1/cmr/m/n/10 The des-ti-na-tion will re-ceive the packet when it ar-rives, but no pre-notifications
+ []
+
+[1
+
+{/Users/bastionii/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 115.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 115.
+
+Overfull \hbox (110.89517pt too wide) in paragraph at lines 115--143
+ [] 
+ []
+
+[3]
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:185: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.185         Function & D
+                          escription \\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:185: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.185         Function & D
+                          escription \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (59.94455pt too wide) in paragraph at lines 185--186
+[]\OT1/cmr/m/n/10 |Description| 
+ []
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:188: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.188         Version & T
+                         his will be for v6 as opposed to v4, a 4 bit field ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:188: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.188         Version & T
+                         his will be for v6 as opposed to v4, a 4 bit field ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (29.50005pt too wide) in paragraph at lines 188--189
+[]\OT1/cmr/m/n/10 |This
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 will
+ []
+
+
+Overfull \hbox (10.2778pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 be
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 v6
+ []
+
+
+Overfull \hbox (8.94446pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 as
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 op-
+ []
+
+
+Overfull \hbox (24.77783pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 posed
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (13.0556pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 v4,
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 4
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 bit
+ []
+
+
+Overfull \hbox (18.33337pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 field
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 0110
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (6.38612pt too wide) in paragraph at lines 188--189
+[]$
+ []
+
+
+Overfull \hbox (20.6945pt too wide) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 Byte| 
+ []
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.191         Traffic Class & U
+                               sed for QoS: Equivalent to Diffserv : 1 Byte\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:191: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.191         Traffic Class & U
+                               sed for QoS: Equivalent to Diffserv : 1 Byte\\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (31.44449pt too wide) in paragraph at lines 191--192
+[]\OT1/cmr/m/n/10 |Used
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 QoS:
+ []
+
+
+Overfull \hbox (29.02785pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 Equiv-
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 a-
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 lent
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (19.58337pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 Diff-
+ []
+
+
+Overfull \hbox (17.58336pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 serv
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 1
+ []
+
+
+Overfull \hbox (20.6945pt too wide) in paragraph at lines 191--192
+\OT1/cmr/m/n/10 Byte| 
+ []
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:194: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.194         Flow Label & I
+                            nforms device to handle identical flow labels th...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:194: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.194         Flow Label & I
+                            nforms device to handle identical flow labels th...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (43.41676pt too wide) in paragraph at lines 194--195
+[]\OT1/cmr/m/n/10 |Informs
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (16.94447pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 vice
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 han-
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 dle
+ []
+
+
+Overfull \hbox (21.6667pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 iden-
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 ti-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 cal
+ []
+
+
+Overfull \hbox (17.50003pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 flow
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 la-
+ []
+
+
+Overfull \hbox (17.00003pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 bels
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (21.72226pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 same
+ []
+
+
+Overfull \hbox (18.88892pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 way,
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 20
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 bit
+ []
+
+
+Overfull \hbox (18.33337pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 field
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (11.38614pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 2[]$
+ []
+
+
+Overfull \hbox (20.6945pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 Byte| 
+ []
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:197: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.197         payload length & T
+                                his 16-bit field indicates the length of the...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:197: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.197         payload length & T
+                                his 16-bit field indicates the length of the...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (29.50005pt too wide) in paragraph at lines 197--198
+[]\OT1/cmr/m/n/10 |This
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 16-
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 bit
+ []
+
+
+Overfull \hbox (18.33337pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 field
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 di-
+ []
+
+
+Overfull \hbox (21.72224pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 cates
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (27.22229pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 length
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 data
+ []
+
+
+Overfull \hbox (18.08337pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 por-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (20.6945pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 IPv6
+ []
+
+
+Overfull \hbox (29.02782pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 Packet
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 2
+ []
+
+
+Overfull \hbox (20.6945pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 Byte| 
+ []
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:200: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.200         Next Header & I
+                             .D.'s the next level protocol: ICMP, TCP, UDP, ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:200: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.200         Next Header & I
+                             .D.'s the next level protocol: ICMP, TCP, UDP, ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (33.52783pt too wide) in paragraph at lines 200--201
+[]\OT1/cmr/m/n/10 |I.D.'s
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (19.16672pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 next
+ []
+
+
+Overfull \hbox (19.44447pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 level
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 pro-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 to-
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 col:
+ []
+
+
+Overfull \hbox (28.75005pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 ICMP,
+ []
+
+
+Overfull \hbox (23.19447pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 TCP,
+ []
+
+
+Overfull \hbox (23.88893pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 UDP,
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 etc.| 
+ []
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:203: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.203         Hop Limit & R
+                           eplaces TTL field layer 3 hop count \\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:203: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.203         Hop Limit & R
+                           eplaces TTL field layer 3 hop count \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (47.97227pt too wide) in paragraph at lines 203--204
+[]\OT1/cmr/m/n/10 |Replaces
+ []
+
+
+Overfull \hbox (20.69447pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 TTL
+ []
+
+
+Overfull \hbox (18.33337pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 field
+ []
+
+
+Overfull \hbox (20.86115pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 layer
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 3
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 hop
+ []
+
+
+Overfull \hbox (24.16672pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 count| 
+ []
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:206: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.206         Source IPv4 Address & 1
+                                     28 bit source address \\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:206: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.206         Source IPv4 Address & 1
+                                     28 bit source address \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (25.00006pt too wide) in paragraph at lines 206--207
+[]\OT1/cmr/m/n/10 |128
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 206--207
+\OT1/cmr/m/n/10 bit
+ []
+
+
+Overfull \hbox (27.30559pt too wide) in paragraph at lines 206--207
+\OT1/cmr/m/n/10 source
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 206--207
+\OT1/cmr/m/n/10 ad-
+ []
+
+
+Overfull \hbox (21.80557pt too wide) in paragraph at lines 206--207
+\OT1/cmr/m/n/10 dress| 
+ []
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:209: Missing number, treated as zero.
+<to be read again> 
+                   |
+l.209         Destination IPv4 Address & 1
+                                          28 bit destination address\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/bastionii/Documents/C files/githubrepo/networking/NetworkLayer.tex:209: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.209         Destination IPv4 Address & 1
+                                          28 bit destination address\\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (25.00006pt too wide) in paragraph at lines 209--210
+[]\OT1/cmr/m/n/10 |128
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 bit
+ []
+
+
+Overfull \hbox (17.27779pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 des-
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 ti-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 ad-
+ []
+
+
+Overfull \hbox (21.80557pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 dress| 
+ []
+
+[4]
+Overfull \vbox (696.35577pt too high) has occurred while \output is active []
+
+ [5] (./NetworkLayer.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 509 strings out of 476064
+ 9813 string characters out of 5791904
+ 1934493 words of memory out of 5000000
+ 22702 multiletter control sequences out of 15000+600000
+ 559317 words of font info for 40 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 35i,10n,50p,269b,181s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/bastionii/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on NetworkLayer.pdf (5 pages, 69235 bytes).
+PDF statistics:
+ 45 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

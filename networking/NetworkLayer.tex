@@ -1,0 +1,337 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{geometry}
+\geometry{a4paper, portrait, margin=0.5in}
+\begin{document}
+
+\section{\textbf{Network Layer Characteristics}}
+
+The network layer provides services to allow end devices to exchange data
+THe principle network layer communication protocols are the IP version 4 and version 6
+In this layer, there are four basic operations.
+
+\begin{itemize}
+    \item Addressing End devices
+    \item Encapsulation
+    \item Routing
+    \item De-Encapsulation
+    
+\end{itemize}
+
+\section{\textbf{Ip Encapsulation}}
+
+Ip encapsulates the transport layer segment and can either use an IPv4 or IPv6
+packet and will not have an impact on the layer 4 segment. IP packet will be examined by all
+layer 3 devices as it traverses the network. THe IP Addressing does not change from source to 
+destination. The NAT introduces changes in the addressing but it is for another topic
+
+\section{\textbf{Characteristics of IP}}
+
+IP is meant to have low overhead and may be described as 
+
+\begin{itemize}
+    \item Connectionless
+    \item Best Effort
+    \item Media Independent
+\end{itemize}
+
+\section{\textbf{Connectionless}}
+
+Recalling back to the Characteristic of Ip as Connectionless\dots
+
+\begin{itemize}
+    \item Ip does not establish a connection with the destination before sending the packet.
+    \item There is no control information needed such as synchronizations and acknowledgements
+    \item The destination will receive the packet when it arrives, but no pre-notifications are sent by Ip.
+    \item IF there is a need for connection oriented traffic, then another protocol will handle this, typically TCP 
+    
+\end{itemize}
+
+\section{\textbf{Best Effort}}
+
+Recalling back to the Characteristic of IP as Best Effort\dots
+
+\begin{itemize}
+    \item IP will not guranteed delivery
+    \item IP has reduced overhead since there is no mechanism to resend unreceived data
+    \item It does not expect acknowledgements
+    \item there is no way to know if the other device is online or has received the packet
+\end{itemize}
+
+\section{\textbf{Media Independent}}
+
+Recalling back to the Characteristic of IP as Media Independent\dots
+
+\vspace{0.5cm}
+Ip is unreliable since:
+
+\begin{itemize}
+    \item It cannot manage or fix undelivered or corrupt packets
+    \item cannot retransmit automatically after an error
+    \item cannot realign out of sequence packets
+    \item must rely on other protocols for these functions
+\end{itemize}
+
+
+IP is media independent since:
+
+\begin{itemize}
+    \item it does not concern itself with the type of fram required at the data link layer or the media
+    type at the physical layer
+    \item IP can be sent over any media type
+\end{itemize}
+
+\begin{flushleft}
+
+    The nework layer will establish teh Maximum Transmission Unit. It will receive it from the control information
+    sent by the data link layer. The network then establishes the MTU size. 
+
+    Fragmentation is when Layer 3 splits the IPv4 packet into smaller units, while IPv6 does not. This introdces
+    more latency. An example of this is when router goes from Ethernet to a slow WAN with a smaller MTU; MTU mismatch
+\end{flushleft}
+
+
+\section{\textbf{IPv4 Packet Header}}
+
+\begin{flushleft}
+
+    IPv4 is the primary communication protocol for the network layer. The network has many purposes
+    \begin{itemize}
+        \item ensures the packet is sent in the correct direction
+        \item contains information for network layer processing in various fields
+        \item the information in the header is used by all layer 3 devices that handle the packet
+    \end{itemize}
+
+\end{flushleft}
+
+\section{\textbf{IPv4 Packet Header Fields}}
+
+\begin{flushleft}
+    The IPv4 network header is in binary, contains several fields of information
+    the diagram is read from left to right, 4 bytes per each line. The two most important fields
+    are the source and destination
+
+    \textbf{Significant fields in the IPv4 header}
+
+    \begin{center}
+        \begin{tabular}{ |m{5cm}|m{5cm}|m{2cm}|}
+            \hline
+
+            Function & Description & Size \\
+
+            \hline
+
+            Version & This will be for V4 as opposed to V6, a 4 bit field = 0100 & $\frac{1}{2}$ Byte\\
+            \hline
+
+            Differentiated Services & Used for QoS: DiffServ - DS field or the older interServe Type of Service & 2 Bytes\\
+            \hline
+
+            header Checksum & Detect corruption n the IPv4 Header & 2 Bytes\\
+            \hline
+
+            Time to Live & Layer 3 hop count. When it becomes 0 the router will discard the packet & 1 Byte\\
+            \hline
+
+            Protocol & I.D.'s next level protocol: ICMP, TCP, UDP, etc. & 1 Byte\\
+            \hline
+
+            Source IPv4 Address & 32bit source address & 4 Bytes\\
+            \hline
+
+            destination IPv4 Address & 32bit destination address & 4 Bytes\\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{flushleft}
+
+\section{\textbf{IPv6 Packets - Limitations of IPv4}}
+
+\begin{flushleft}
+    IPv4 has three major limitations\dots
+    
+    \begin{itemize}
+        \item IPv4 has address depletion, this means that we are running ot of IPv4 addresses. There are 4 billion
+        possible addresses, while there are already 8 billion people in the world that may have 1 or more device that will need
+        \item it lacks end to end connectivity, this is the reason why private addressing and NAT was created.
+        \item Increases network complexity, NAT was made as a short term fix. NAT creates issues on the network as a side effect, causing latency and troubleshooting issues
+    \end{itemize}
+\end{flushleft}
+
+\section{\textbf{IPv6 Overview}}
+
+\begin{flushleft}
+    IPv6 was developed by Internet Engineering Task force in order to overcome the limitations of IPv4. IPv6 has
+    increased address space from 32bit to 128bits. It also has improved packet handling with a simplified header and
+    fewer fields. It also eliminates the need for NAT since there is a hge amount of addressing, there is no need
+    to use private addressing internally
+\end{flushleft}
+
+\section{\textbf{IPv4 vs IPv6 packet headers}}
+
+\begin{flushleft}
+
+    \begin{itemize}
+        \item IPv6 header is simplified but not smaller
+        \item The header is fixed at 40 bytes or octets long
+        \item Several IPv4 fields were removed such as the flag, frament Offeset and Header Checksum
+    \end{itemize}
+\end{flushleft}
+
+\textbf{Significant fields in the IPv6 Header}
+
+\begin{center}
+    \begin{tabular}{ |m{5cm}|m{5cm}|m{2cm}| }
+        \hline
+        
+        Function & Description & Size \\
+        \hline
+
+        Version & This will be for v6 as opposed to v4, a 4 bit field = 0110 & $\frac{1}{2}$ Byte \\
+        \hline
+
+        Traffic Class & Used for QoS: Equivalent to Diffserv & 1 Byte\\
+        \hline
+
+        Flow Label & Informs device to handle identical flow labels the same way, 20 bit field & $2\frac{1}{2}$ Byte\\
+        \hline
+
+        payload length & This 16-bit field indicates the length of the data portion of the IPv6 Packet & 2 Byte\\
+        \hline
+        
+        Next Header & I.D.'s the next level protocol: ICMP, TCP, UDP, etc. & 1 Byte\\
+        \hline
+
+        Hop Limit & Replaces TTL field layer 3 hop count & 1 Byte\\
+        \hline
+        
+        Source IPv4 Address & 128 bit source address & 4 Byte\\
+        \hline
+
+        Destination IPv4 Address & 128 bit destination address & 4 Bytes\\
+        \hline
+
+    \end{tabular}
+\end{center}
+
+\begin{flushleft}
+    IPv6 packet may also contain extension headers. These provide optional network layer information
+    it is placed betweein the IPv6 header and the payload. This may be used for fragementation, security, mobility
+    support and etc. Routers will not fragment IPv6 packets
+\end{flushleft}
+
+\section{\textbf{Host Forwarding Decision}}
+
+\begin{flushleft}
+    Packets are always created at the source. Each host devices creates their own routing table.
+
+    A host can send packets to the following:
+        \begin{itemize}
+            \item Itself - 127.0.0.1 (IPv4), ::1 (IPv6)
+            \item Local Hosts - destination is on the same LAN
+            \item Remote Hosts - devices are not on the same LAN
+        \end{itemize}
+
+    The source device determines whether the destination is local or Remote. It determines it 
+    using its own IP address and subnet mask and the destination IP address. For IPv6 the source
+    uses the network address and prefix advertised by the local router.
+
+    Local traffic is then dumped out the host interface to be handled by an intermediary device. Remote
+    traffic is forwarded directly to the default gateway on the lan.
+\end{flushleft}
+
+\section{\textbf{Default Gateway}}
+
+\begin{flushleft}
+    A router or layer 3 switch can be a defalt-gateway. A default gateway must have an IP address in the same range
+    as the rest of the Lan. It can accept data from the LAN and is capable of forwarding traffic off the LAN. and
+    most importantly, it can route to other networks. 
+
+    If a device has no defalt gateway or a bad gateway, its traffic will not be able to leave the LAN
+\end{flushleft}
+
+\section{\textbf{A host routes to the default gateway}}
+
+\begin{flushleft}
+    The host will know the default gateway (DGW) either statically or through DHCP in IPv4.
+    IPv6 sends the DGW through a router solicitation or can be configured manually. A DGW is a static 
+    route in the routing table. All devices on the LAN will need the DGW of the router if they intend to send traffic.
+\end{flushleft}
+
+\section{\textbf{Host Routing Tables}}
+
+\begin{flushleft}
+    On windows, rote print or netstat -r to display the routing table of the PC
+
+    Three sections displayed by these two commands
+
+    Interface List - all potential interface and MAC Addressing
+    
+    IPv4 Routing table
+
+    IPv6 Routing table
+\end{flushleft}
+
+
+\section{\textbf{Router Packet Forwarding Decision}}
+
+\begin{flushleft}
+    When a router receives the frame from a host device\dots
+
+    \begin{itemize}
+        \item Packet arriveson the Gigabit Ethernet 0/0/0 interface of roter R1, which then the layer 2 ethernet header and trailer is de-encapsulated
+        \item R1 examines the destination IPv4 address of the packet and searches for the best match in its IPv4 routing table.
+        \item The route entry indicates that this packet is to be forwarded to R2
+        \item R1 encapsulates the packet into an new ethernet header and trailer, forwards to the next hop router- R2
+    \end{itemize}
+\end{flushleft}
+
+
+\section{\textbf{IP Router Routing Table}}
+
+\begin{flushleft}
+    There are three types of routes in a router's routing table:
+
+    Directly connected - These routes are automatically added by the router, provided the interface is active and has Addressing
+
+    Remote - These are the routes the router does not have a direct connection and may be learned Manually with a static route or Dynamically
+    by using a routing protocol to have the routers share information with each other
+
+    Default Route - This forwards all traffic to a specific direction when there is not a match in the routing table
+\end{flushleft}
+
+\section{\textbf{Static Routing}}
+
+\begin{flushleft}
+    Static routes must be configured manually. It must also be adjusted manually by the administrator when there is a change 
+    in the topology. This is meant for small non-redundant networks. Often used in conjunction with a dynamic routing protocol for
+    configuring a default rote
+\end{flushleft}
+
+\section{\textbf{Dynamic Routing}}
+
+\begin{flushleft}
+    Dynamic Routes Automaticall Discover remote networks. They also maintain up-to-date information. It chooses the best path
+    to the destination. It also find new best paths when there is a change in the topology
+\end{flushleft}
+
+\section{\textbf{Introdction to an IPv4 Routing Table}}
+\begin{flushleft}
+    The \textbf{show IP route} command shows the following route sources:
+
+    \begin{itemize}
+        \item \textbf{L} - Directly connected local interface IP address
+        \item \textbf{C} - Directly Connected Network
+        \item \textbf{S} - Static route was manually configred by an administrator
+        \item \textbf{O} - OSPF
+        \item \textbf{D} - EIGRP
+    \end{itemize}
+
+    This command shows types of routes:
+    \begin{itemize}
+        \item Directly Connected - C and L
+        \item Remote Rotes - O, D, etc.
+        \item Default Routes - S*
+    \end{itemize}
+\end{flushleft}
+\end{document}

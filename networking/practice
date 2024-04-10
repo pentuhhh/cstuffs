@@ -1,0 +1,33 @@
+Pazon
+
+Destination MAC:
+
+52 54 00 12 35 02
+
+Source MAC:
+
+08 00 27 7d 24 c0
+
+Payload Type: 08 00
+
+IP Version: 45
+
+Header Length: 45
+
+DSCP: 00
+
+Total Length: 00 34
+
+Identification: 1e 9e
+
+Flags and Fragment: 40 00
+
+TTL: 80 
+
+Protocol: 06
+
+Checksm: 00 00
+
+source ip: 0a 00 02 0f
+
+Dest: 33 4f 81 a0

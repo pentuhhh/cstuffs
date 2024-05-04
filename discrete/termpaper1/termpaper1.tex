@@ -131,14 +131,176 @@ Using a, let us group the summation of the infinite series into two terms. The f
 term will be the summation from a to infinity. 
 
 \centering{\fontsize{17.28pt}{18pt}\selectfont
-\[ e^{-1} = \sum_{k=0}^{a} \frac{(-1)^{k}}{k!} + \sum_{k = a + 1}^{\infty} \frac{(-1)^{k}}{k!}
+\[ e^{-1} = \frac{b}{a}= \sum_{k=0}^{a} \frac{(-1)^{k}}{k!} + \sum_{k = a + 1}^{\infty} \frac{(-1)^{k}}{k!}
 \]
 }
 
 \raggedleft
 {\small Figure 1.5}
 
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[ \frac{b}{a} - \sum_{k = 0}^{a} \frac{(-1)^k}{k!} = \sum_{k = a + 1}^{\infty} \frac{(-1)^{k}}{k!}
+\]
+}
+\raggedleft
+{\small Figure 1.6}
+
 \raggedright
+
+Multiply each term with \[(-1)^{(a+1)}a!\]
+
+\vspace{0.5cm}
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+term 1:
+
+\[
+    (-1)^{(a+1)} b(a-1)! 
+    \]
+}
+\raggedright
+
+this term is an integer since all constants, variables and integers. any operation between integers that integers
+excluding division and root, will always result an integer
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+term 2:
+
+\[
+    (-1)^{(a+1)} (\frac{a!}{2!} \dots + \frac{(-1)^{a}a!}{a})
+    \]
+}
+
+\raggedright
+
+in this series, every denominator is always less than the numerator, it will always result
+an integer since the denominator is a factor of the numerator
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[
+    \forall a, b \in \mathbb{Z}, a > b  
+\]
+}
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[
+    \frac{a!}{b!} = c, s.t c \in \mathbb{Z}
+\]
+
+}
+
+
+\vspace{1cm}
+\raggedright
+
+since term 1 and term 2 is a subtraction between two integers, we can conclude that the left
+side of the equation is an integer
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+  \mathbb{Z} = \sum_{k = a + 1}^{\infty} \frac{(-1)^{k}}{k!}
+\]
+
+}
+
+\vspace{1cm}
+\raggedright
+
+Let us expound on the term on the right side of the equation
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+  =  \frac{1}{a + 1} - \frac{1}{(a + 1)(a + 2)} + \dots
+\]
+
+}
+
+\vspace{1cm}
+\raggedright
+
+in this expression, an upper and lower bound is defined. The first term is the 
+upper bound. The succeeding terms are the lower bound such that it is lower than the first term
+as k reaches infinity, the summation of the succeding terms will approach zero. Therefore this
+this expression will result in a number that is irrational
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+    \frac{1}{a + 1} - \frac{1}{(a + 1)(a + 2)} + \dots \notin \mathbb{Z}
+\]
+
+}
+\newpage
+\raggedright
+\section{Minskowski's Inequality for Sums}
+
+Task: Prove Minskow's Inequality for Sums
+
+\centering{\fontsize{17.28}{18pt}\selectfont
+
+\[
+  [\sum_{k = 1}^{n} |a_k + b_k|^{p}]^\frac{1}{p} \leq [\sum_{k = 1}^{n} |a_k|^{p}]^\frac{1}{p}
+  + [\sum_{k = 1}^{n} |b_k|^{p}]^\frac{1}{p}
+\]
+
+\[
+    \forall a, b, p \in \mathbb{R} 
+\]
+\[
+    p  > 1, (a_k, b_k) > 0
+\]  
+}
+
+\vspace{1cm}
+\raggedright
+Let us directly prove Minskowski's Inequality for sums by the
+triangle Inequality theorem
+
+\vspace{1cm}
+\centering{\fontsize{17.28}{18pt}\selectfont
+
+Triangle Inequality Theorem
+\[
+    |a + b| \leq |a| + |b|
+\]
+
+}
+
+\raggedright
+Let us first raise terms on both sides to P
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+    |a + b|^{p} \leq |a|^{p} + |b|^{p}  
+\]
+}
+
+\raggedright
+
+Do summation notation for all k from 1 to n
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+  \sum_{k = 1}^{n} |a_k + b_k|^{p} \leq \sum_{k=1}^{n} |a_k|^{p} + \sum_{k =1 }^{n} |b_k|^{p} 
+\]
+
+}
+
+\raggedright
+
+raise to 1 over p by property of absolute value
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+  [\sum_{k = 1}^{n}|a_k + b_k|^{p}]^{\frac{1}{p}} \leq [\sum_{k = 1}^{n} |a_k|^{p}]^{\frac{1}{p}} + [\sum_{k = 1}^{n}|b_k|^{p}]^{\frac{1}{p}}
+\]
+
+}
 
 
 

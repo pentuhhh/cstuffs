@@ -11,11 +11,18 @@ void deleteval(struct node **head, int input){
     if(*head != NULL){
 
         if(trav->val == input){
+            struct node *temp = *head;
+            
             *head = (*head)->next;
+
+            free(temp);
         } else {
 
             for(;trav->next != NULL && trav->next->val != input; trav = trav->next);
+
+            struct node *temp = trav->next;
             trav->next = trav->next->next;
+            free(temp);
         }
 
         
@@ -35,7 +42,10 @@ int main(){
         printList(head);
         printf("\nEnter a index: ");
         scanf("%d", &input);
-        deleteval(&head, input);
+        if(input != -1){
+
+            deleteval(&head, input);
         
+        }
 }
 }

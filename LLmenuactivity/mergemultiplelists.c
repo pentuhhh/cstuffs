@@ -6,40 +6,6 @@
 #include "back.h"
 #include "back.c"
 
-void swapval(struct node *a, struct node* b){
-    int temp = a->val;
-    a->val = b->val;
-    b->val = temp;
-}
-
-void sortlist(struct node *head){
-    int swap;
-    struct node *ptr;
-    struct node *lptr = NULL;
-
-    if(head == NULL){
-        return;
-    }
-
-    do {
-
-        swap = 0;
-
-        ptr = head;
-
-        while (ptr->next != lptr){
-            if(ptr->val > ptr->next->val){
-                swapval(ptr, ptr->next);
-                swap = 1;
-            }
-            ptr = ptr->next;
-        }
-        lptr = ptr;
-
-    } 
-    while (swap);
-}
-
 struct node* mergeLists(struct node** lists, int listsSize) {
     int min, mindex, k, allListEmpty = 0;
 
@@ -82,14 +48,14 @@ struct node* mergeLists(struct node** lists, int listsSize) {
 
 int main(){
     system("clear");
-    
+
     srand(time(NULL));
 
     int length = genRand(3, 3);
     struct node **lists = calloc(length, sizeof(struct node*));
     for(int i = 0; i < length; i++){
         lists[i] = createRandomListLength();
-        sortlist(lists[i]);
+        bubsortlist(lists[i]);
     }
 
     printHeader();

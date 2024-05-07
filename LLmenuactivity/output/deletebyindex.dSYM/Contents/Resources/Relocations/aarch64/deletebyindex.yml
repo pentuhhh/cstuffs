@@ -2,10 +2,15 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/bastionii/Documents/C files/githubrepo/mycstuffs/LLmenuactivity/output/deletebyindex'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createList, symObjAddr: 0x0, symBinAddr: 0x100003B30, symSize: 0x10C }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _createList, symObjAddr: 0x0, symBinAddr: 0x100003B30, symSize: 0x10C }
-  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _printList, symObjAddr: 0x10C, symBinAddr: 0x100003C3C, symSize: 0x6C }
-  - { offsetInCU: 0xD3, offset: 0xD3, size: 0x8, addend: 0x0, symName: _printHeader, symObjAddr: 0x178, symBinAddr: 0x100003CA8, symSize: 0x28 }
-  - { offsetInCU: 0xE8, offset: 0xE8, size: 0x8, addend: 0x0, symName: _deleteindex, symObjAddr: 0x1A0, symBinAddr: 0x100003CD0, symSize: 0x194 }
-  - { offsetInCU: 0x160, offset: 0x160, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x334, symBinAddr: 0x100003E64, symSize: 0x98 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x1000037B0, symSize: 0x44 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _genRand, symObjAddr: 0x0, symBinAddr: 0x1000037B0, symSize: 0x44 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _createList, symObjAddr: 0x44, symBinAddr: 0x1000037F4, symSize: 0xF8 }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: _createRandomListLength, symObjAddr: 0x13C, symBinAddr: 0x1000038EC, symSize: 0x10C }
+  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _createRandomListLengthLong, symObjAddr: 0x248, symBinAddr: 0x1000039F8, symSize: 0x10C }
+  - { offsetInCU: 0x1C1, offset: 0x1C1, size: 0x8, addend: 0x0, symName: _createRandomListLengthLongHighChanceDuplicate, symObjAddr: 0x354, symBinAddr: 0x100003B04, symSize: 0x10C }
+  - { offsetInCU: 0x22F, offset: 0x22F, size: 0x8, addend: 0x0, symName: _printNewLine, symObjAddr: 0x460, symBinAddr: 0x100003C10, symSize: 0x1C }
+  - { offsetInCU: 0x244, offset: 0x244, size: 0x8, addend: 0x0, symName: _printList, symObjAddr: 0x47C, symBinAddr: 0x100003C2C, symSize: 0x78 }
+  - { offsetInCU: 0x276, offset: 0x276, size: 0x8, addend: 0x0, symName: _printHeader, symObjAddr: 0x4F4, symBinAddr: 0x100003CA4, symSize: 0x1C }
+  - { offsetInCU: 0x28B, offset: 0x28B, size: 0x8, addend: 0x0, symName: _deleteindex, symObjAddr: 0x510, symBinAddr: 0x100003CC0, symSize: 0x194 }
+  - { offsetInCU: 0x303, offset: 0x303, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6A4, symBinAddr: 0x100003E54, symSize: 0xA4 }
 ...

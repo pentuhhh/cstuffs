@@ -5,12 +5,6 @@
 #include "back.c"
 
 
-void swapval(struct node *a, struct node* b){
-    int temp = a->val;
-    a->val = b->val;
-    b->val = temp;
-}
-
 void sortlist(struct node *head){
     int swap;
     struct node *ptr;
@@ -42,7 +36,7 @@ void sortlist(struct node *head){
 int main(){
 
     srand(time(NULL));
-    
+
     struct node *head = createList();
     system("clear");
         printHeader();

@@ -33,6 +33,7 @@ void printMenu(){
 int main(){
     
     system("clear");
+    system("clr");
     struct stackParameters mainstack;
     mainstack = debugdata();
     int mode = 0;

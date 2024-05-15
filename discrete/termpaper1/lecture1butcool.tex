@@ -1,0 +1,647 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\begin{document}
+
+\title{Pre-Midterms Term Paper}
+\author{Nikolai Tristan Pazon}
+
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\Huge \bfseries Mathematical Systems, Direct Proofs and Counter Examples \par}
+    \vspace{1cm}
+    {\large By: Nikolai Tristan Pazon \par}
+    \vspace{1cm}
+    {\large University of San Carlos \par}
+    \vspace{1cm}
+    {\large Bachelor of Science in Computer Science \par}
+    \vspace{0.25cm}
+    {\large Discrete Mathematics 2\par}
+    
+
+\end{titlepage}
+
+\section{Introduction}
+
+\hspace{0.5cm} In this paper we will explore and expound through ,mathematical proofing, several fundamental
+ theorems and inequalities in Discrete Math. These proving challenges will task us to revisit and refine our basic understanding of Algebra, Number Theory and most of all writing proofs.
+
+\vspace{1cm}
+This paper requires the knowledge and skill of writing cohesive mathematical proofs by establishing 
+a domain, hypothesis and a conclusion. Relying heavily on establishing statements that are supported by mathematical laws, theorems
+%
+and lemmas. Using these fundamental concepts, we are able to structure and justify our arguments or counter arguments
+%
+Our goal is to prove, disprove our hypothesis and possible create a better and more logically sound counter argument
+
+\section{Euler's Number Proof}
+\centering
+Task: Prove that e, Euler's number is not a rational number 
+
+
+
+\vspace{0.5cm}
+{\fontsize{17.28pt}{18pt}\selectfont
+\[
+e = \sum_{k=0}^\infty \frac{1}{k!} \notin \mathbb{Q}
+\]
+}
+
+\raggedleft
+
+{\small Figure 1.0}
+
+\centering
+\vspace{0.5cm}
+
+
+
+Recalling the definition of a rational number, denoted as $\mathbb{Q}$,
+
+\vspace{0.5cm}
+{\fontsize{17.28}{18pt}\selectfont
+\[
+\frac{a}{b} = \mathbb{Q}
+\]
+}
+
+\raggedleft
+
+{\small Figure 1.1}
+
+\vspace{0.5cm}
+\raggedright
+
+Let us create a hypothesis, assume that euler's number is a rational number.
+\newline
+
+hypothesis: \centering {\fontsize{17.28}{18pt}\selectfont
+\[e \in \mathbb{Q}
+\]
+}
+
+\raggedright%
+
+Suppose that the summation from k = 0 to $\infty$ can be expressed in a more simpler form
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[ \sum_{k=0}^\infty \frac{1}{k!} = \frac{1}{0!} + \frac{1}{1!} + \frac{1}{2!} ... + \frac{1}{k!} = \frac{a}{b}
+\]
+}
+
+\raggedleft
+
+{\small Figure 1.2}
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[ e = \frac{a}{b}
+\]
+}
+\raggedleft
+
+{\small Figure 1.2}
+
+\vspace{0.5cm}
+
+\raggedright
+
+According to our hypothesis where $e \in \mathbb{Q}$, the reciprocal of eulers number
+should also be rational
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[ e = \frac{a}{b} \quad = \quad e^{x} = \frac{b}{a}
+\]
+} s.t. x = -1
+
+\raggedleft
+{\small Figure 1.3}
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[ e^{-1} = \frac{1}{e} = \frac{b}{a} = \sum_{k=0}^\infty \frac{(-1)^{k}}{k!}
+\]
+} s.t. $a,b \in \mathbb{Z}$
+
+\raggedleft
+{\small Figure 1.4}
+
+\raggedright
+
+Using a, let us group the summation of the infinite series into two terms. The first term will be the summation from 0 to a and the second 
+term will be the summation from a to infinity. 
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[ e^{-1} = \frac{b}{a}= \sum_{k=0}^{a} \frac{(-1)^{k}}{k!} + \sum_{k = a + 1}^{\infty} \frac{(-1)^{k}}{k!}
+\]
+}
+
+\raggedleft
+{\small Figure 1.5}
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[ \frac{b}{a} - \sum_{k = 0}^{a} \frac{(-1)^k}{k!} = \sum_{k = a + 1}^{\infty} \frac{(-1)^{k}}{k!}
+\]
+}
+\raggedleft
+{\small Figure 1.6}
+
+\raggedright
+
+Multiply each term with \[(-1)^{(a+1)}a!\]
+
+\vspace{0.5cm}
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+term 1:
+
+\[
+    (-1)^{(a+1)} b(a-1)! 
+    \]
+}
+\raggedright
+
+this term is an integer since all constants, variables and integers. any operation between integers that integers
+excluding division and root, will always result an integer
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+term 2:
+
+\[
+    (-1)^{(a+1)} (\frac{a!}{2!} \dots + \frac{(-1)^{a}a!}{a})
+    \]
+}
+
+\raggedright
+
+in this series, every denominator is always less than the numerator, it will always result
+an integer since the denominator is a factor of the numerator
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[
+    \forall a, b \in \mathbb{Z}, a > b  
+\]
+}
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+\[
+    \frac{a!}{b!} = c, s.t c \in \mathbb{Z}
+\]
+
+}
+
+
+\vspace{1cm}
+\raggedright
+
+since term 1 and term 2 is a subtraction between two integers, we can conclude that the left
+side of the equation is an integer
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+  \mathbb{Z} = \sum_{k = a + 1}^{\infty} \frac{(-1)^{k}}{k!}
+\]
+
+}
+
+\vspace{1cm}
+\raggedright
+
+Let us expound on the term on the right side of the equation
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+  =  \frac{1}{a + 1} - \frac{1}{(a + 1)(a + 2)} + \dots
+\]
+
+}
+
+\vspace{1cm}
+\raggedright
+
+in this expression, an upper and lower bound is defined. The first term is the 
+upper bound. The succeeding terms are the lower bound such that it is lower than the first term
+as k reaches infinity, the summation of the succeding terms will approach zero. Therefore this
+this expression will result in a number that is irrational
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+    \frac{1}{a + 1} - \frac{1}{(a + 1)(a + 2)} + \dots \notin \mathbb{Z}
+\]
+
+}
+\newpage
+\raggedright
+\section{Minskowski's Inequality for Sums}
+
+Task: Prove Minskow's Inequality for Sums
+
+\centering{\fontsize{17.28}{18pt}\selectfont
+
+\[
+  [\sum_{k = 1}^{n} |a_k + b_k|^{p}]^\frac{1}{p} \leq [\sum_{k = 1}^{n} |a_k|^{p}]^\frac{1}{p}
+  + [\sum_{k = 1}^{n} |b_k|^{p}]^\frac{1}{p}
+\]
+
+\[
+    \forall a, b, p \in \mathbb{R} 
+\]
+\[
+    p  > 1, (a_k, b_k) > 0
+\]  
+}
+
+\vspace{1cm}
+\raggedright
+Let us directly prove Minskowski's Inequality for sums by the
+triangle Inequality theorem
+
+\vspace{1cm}
+\centering{\fontsize{17.28}{18pt}\selectfont
+
+Triangle Inequality Theorem
+\[
+    |a + b| \leq |a| + |b|
+\]
+
+}
+
+\raggedright
+Let us first raise terms on both sides to P
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+    |a + b|^{p} \leq |a|^{p} + |b|^{p}  
+\]
+}
+
+\raggedright
+
+Do summation notation for all k from 1 to n
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+  \sum_{k = 1}^{n} |a_k + b_k|^{p} \leq \sum_{k=1}^{n} |a_k|^{p} + \sum_{k =1 }^{n} |b_k|^{p} 
+\]
+
+}
+
+\raggedright
+
+raise to 1 over p by property of absolute value
+
+\centering{\fontsize{17.28pt}{18pt}\selectfont
+
+\[
+  [\sum_{k = 1}^{n}|a_k + b_k|^{p}]^{\frac{1}{p}} \leq [\sum_{k = 1}^{n} |a_k|^{p}]^{\frac{1}{p}} + [\sum_{k = 1}^{n}|b_k|^{p}]^{\frac{1}{p}}
+\]
+
+}
+
+$|x+y| \leq |x| + |y|, \forall (x,y) \in \mathbb{R}$
+
+\newpage
+\raggedright
+\section{Triangle Inequality Theorem}
+
+Task: Prove that\dots
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  |x+y| \leq |x| + |y|, \forall (x,y) \in \mathbb{R}
+\]
+}
+\raggedright
+hypothesis
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  (|x| + |y|)^{2} \geq |a + b|^{2}
+  \]
+}
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  (x+y)^{2} = x^{2} + 2xy + y^{2} \leq |x|^{2} + 2|x||y| + |y|^{2}
+  \]
+}
+
+\raggedright
+By the known properties of absolute value where $x \leq |x|$
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  x^{2} + 2xy + y^{2} = (x + y)^{2} = |a + b|^{2}
+\]
+}
+
+\vspace{0.5cm}
+\raggedright
+Therefore\dots
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  \sqrt{(|a| + |b|)^{2}} \geq \sqrt{|a + b|^{2}}
+\]
+}
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  |a| + |b| \geq |a + b|
+\]
+}
+
+\newpage
+\raggedright
+\section{Sedrakayan's Lemma}
+
+Sedrakayan's Lemma, denoted as\dots
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  \frac{(\sum_{i=1}^{n}u_i)^{2}}{\sum_{i = 1}^{n}v_i} \leq \sum_{i=i}^{n} \frac{(u_i)^{2}}{v_i}
+\]
+}
+
+\raggedright
+Let us directly prove\dots
+
+\vspace{0.5cm}
+hypothesis: Sedrakayan's Lemma is a Direct Consequence of
+Cauchy-Schwarz Inequality\\
+
+\vspace{0.5cm}
+Recall Cauchy-Schwarz Inequality\dots
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  <a,b>|^{2} \hspace{0.2cm} \leq \hspace{0.2cm} <a,a><b,b>
+\]
+\[
+  \forall u_i, v_i \in \mathbb{R}^{+}
+\]
+}
+
+\textit{the square of the dot product of two vectors is less than or equal to the product of the dot product of each vector with itself.}
+
+\vspace{0.5cm}
+\raggedright
+Let $a_i = u_i, b_i = \sqrt{v_i}$
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  |<a,b>|^{2}\space = (\sum_{i = 1}^{n}a_ib_i)^{2} = (\sum_{i = 1}^{n}u_i \sqrt{v_i})^{2}
+\]
+\[
+  <a,a>\space<b,b>\space = (\sum_{i = 1}^{n}a_i^{2})(\sum_{i = 1}^{n}b_i^{2}) = (\sum_{i = 1}^{n} u_i^{2})(\sum_{i = 1}^{n}v_i)
+\]
+}
+
+\vspace{0.5cm}
+\raggedright
+Therefore...
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  (\sum_{i = 1}^{n}u_i \sqrt{v_i})^{2} \leq (\sum_{i = 1}^{n} u_i^{2})(\sum_{i = 1}^{n}v_i)
+\]
+}
+
+\vspace{0.5cm}
+\raggedright
+divide both sides by $\sum_{i=1}^{n}v_i$
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  \frac{(\sum_{i=1}^{n}u_i)^{2}}{\sum_{i=1}^{n}v_i} \leq \sum_{i = 1}^{n} \frac{u_i^{2}}{v_i}
+\]
+
+
+\textit{quod erat demonstratum}
+}
+
+\newpage
+\raggedright
+\section{Sedrakayan's Lemma 2}
+
+Now that we have directly proven Sedrakayan's Lemma through
+Cauchy-Schwarz Inequality, let us try to directly prove if the
+Inequality holds of $u_i$ and $v_i$ are square roots of an even
+integer
+
+\vspace{0.5cm}
+There are two ways of tackling this thought experiment, one where
+we are dealing with Perfect Square roots of an even integer and one where
+we do not. Both ways require some supplemental proofs.
+
+\vspace{1cm}
+$\textbf{Part 1: Assuming that we are dealing with Perfect Squares}$
+\vspace{0.5cm}
+\\let us expound on square roots of an even integer. This statement may not always be true as for example the square root of 8 is 2.83, which is not even and it is not an integer.
+\vspace{0.5cm}
+\\
+Recall the definition of an even number...
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  \forall n \in \mathbb{Z} \space\space\space\text{is EVEN}\iff \exists k \in \mathbb{Z}, n = 2k
+\]
+}
+
+\raggedright
+\vspace{0.5cm}
+Recall the definition of a perfect square...
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  \forall n \in \mathbb{Z} \space\space\space \text{is a PERFECT SQUARE}\iff \exists k \in \mathbb{Z}
+\]
+\[
+  k^{2} = n, k = \sqrt{n}  
+\]
+\[
+  s.t. \space n \in \mathbb{Z}^{+}  
+\]
+}
+
+\raggedright
+\vspace{0.5cm}
+Let us prove that the square root of an even perfect square
+is an even number\\
+
+\vspace{0.5cm}
+let $n = m^{2}$\\
+Unique prime factorization of $m$
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  m = \prod p_i^{n_i}
+\]
+}
+
+\raggedright
+\vspace{0.5cm}
+prime factorization for $n$
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  n = \prod p_i^{2n_i}
+\]
+}
+
+
+\raggedright
+\vspace{0.5cm}
+
+$n^{2}$ is for sure to be even. The prime factorization reveals that one if its prime numbers must be 2
+the primes that factor $n^{2}$ are the same as those that factor $m$, therefore $m$ must be even
+therefor the square root of an even perfect square is even
+
+\vspace{0.5cm}
+
+
+
+
+let us assume that both are perfect square roots of an even integer $u_i = 2a_i$ and $v_i = 2b_i$ $a_i, b_i \in \mathbb{Z}$
+
+\centering{\fontsize{17}{18}\selectfont
+\[
+  \frac{(\sum_{i=1}^{n}2a_i)^{2}}{\sum_{i=1}^{n}2b_i} \leq \sum_{i=1}^{n} \frac{(2a_i)^{2}}{2b_i}
+\]
+simplify...
+\[
+  \frac{4(\sum_{i=1}^{n}a_i)^{2}}{2\sum_{i=1}^{n}b_i} \leq \sum_{i=1}^{n} \frac{4(a_i)^{2}}{2b_i}
+\]
+simplify further\dots
+\[
+  \frac{2(\sum_{i=1}^{n}a_i)^{2}}{\sum_{i=1}^{n}b_i} \leq 2\space[\sum_{i=1}^{n} \frac{(a_i)^{2}}{b_i}]
+\]
+multiply both sides by $\frac{1}{2}$
+\[
+  \frac{(\sum_{i=1}^{n}a_i)^{2}}{\sum_{i = 1}^{n}b_i} \leq \sum_{i=i}^{n} \frac{(a_i)^{2}}{b_i}  
+\]
+}
+
+\raggedright
+\vspace{0.5cm}
+Therefore Sedrakayan's Lemma holds true if $u_i$ and $v_i$ are square roots of an even perfect square
+
+\vspace{1cm}
+$\textbf{Part 2: Assuming that we are not dealing with Perfect Squares}$
+
+\raggedright
+\vspace{0.5cm}
+recalling the Cauchy-Schwarz inequality for Real Numbers...
+s
+
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  (\sum_{i=1}^{n}a_i b_i)^{2} \leq (\sum_{i=1}^{n}a_i^{2})(\sum_{i=1}^{n}b_i^{2})
+\]
+}
+
+\raggedright
+\vspace{0.5cm}
+let $a_i = u_i$ and $b_i = \sqrt{v_i}$
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  (\sum_{i=1}^{n}u_i \sqrt{v_i})^{2} \leq (\sum_{i=1}^{n}u_i^{2})(\sum_{i=1}^{n}\sqrt{v_i}^{2})
+  \]
+}
+
+\raggedright
+\vspace{0.5cm}
+since we are dealing with the square root of even integers, substitute the values $u_i = \sqrt{2a_i}, \sqrt{v_i} = \sqrt{2b_i}$
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  (\sum_{i=1}^{n}\sqrt{2a_i}\sqrt{2b_i})^{2} \leq (\sum_{i=1}^{n}[\sqrt{2a_i}]^{2})(\sum_{i=1}^{n}[\sqrt{2b_i}]^{2})
+  \]
+\[
+  4\sum_{i=1}^{n}a_ib_i \leq 4\sum_{i=1}^{n}a_i\sum_{i=1}^{n}b_i
+\]
+\vspace{.5cm}
+divide both sides by... $4\sum_{i=1}^{n}b_i$
+\vspace{.5cm}
+
+\[
+  \frac{4\sum_{i=1}^{n}a_ib_i \leq 4\sum_{i=1}^{n}a_i\sum_{i=1}^{n}b_i}{4\sum_{i=1}^{n}b_i}
+\]
+\[
+  4(\frac{1}{4} )\space [\sum_{i=1}^{n}a_ib_i (\frac{1}{[\sum_{i=1}^{n}b_i]})] \leq 4(\frac{1}{4})\space \sum_{i=1}^{n}a_i(\frac{1}{[\sum_{i=1}^{n}b_i]})\space\space \sum_{i=1}^{n}b_i (\frac{1}{[\sum_{i=1}^{n}b_i]})
+\]
+\[
+  \frac{\sum_{i=1}^{n}a_i}{\sum_{i=1}^{n}b_i} \leq \sum_{i=1}^{n}\frac{a_i}{b_i}
+\]
+}
+
+\raggedright
+\vspace{0.5cm}
+Remember that $u_i = \sqrt{2a_i}, v_i = \sqrt{2b_i}$
+
+modify the equality to get $a$ and $b$
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  u_i = \sqrt{2a_i}
+\]
+\[
+  a = (\frac{u_i^{2}}{2})
+\]
+\[
+  \sqrt{v_i} = \sqrt{2b_i}
+\]
+\[
+  b = (\frac{\sqrt{v_i}^{2}}{2})
+\]
+}
+
+\raggedright
+\vspace{0.5cm}
+Substitue and square the numerator to get Sedrakayan's Lemma
+
+\centering{\fontsize{17}{18}\selectfont
+
+\[
+  \frac{\sum_{i=1}^{n}\frac{u_i^{2}}{2}}{\sum_{i=1}^{n}\frac{\sqrt{v_i}^{2}}{2}} \leq \sum_{i=1}^{n}\frac{\frac{u_i^{2}}{2}}{\frac{\sqrt{v_i}^{2}}{2}}
+  \]
+
+\[
+  \frac{(\sum_{i=1}^{n}u_i)^{2}}{\sum_{i=1}^{n}v_i} \leq \sum_{i=1}^{n}\frac{u_i^{2}}{v_i}
+\]
+}
+
+\raggedright
+\vspace{0.5cm}
+Therefore Sedrakayan's Lemma holds if $u_i$ and $v_i$ are square roots of an even integer
+\\
+\centering
+\vspace{0.5cm}
+\textit{quod erat demonstratum}
+
+\end{document}

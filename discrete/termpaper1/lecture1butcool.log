@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  4 MAY 2024 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  15 MAY 2024 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/termpaper1/termpaper1.tex"
-(/Users/bastionii/Documents/C files/githubrepo/mycstuffs/discrete/termpaper1/termpaper1.tex
+**/Users/bastionii/Documents/C_files/githubrepo/mycstuffs/discrete/termpaper1/lecture1butcool.tex
+(/Users/bastionii/Documents/C_files/githubrepo/mycstuffs/discrete/termpaper1/lecture1butcool.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -101,8 +101,8 @@ LaTeX Info: Redefining \] on input line 2954.
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box53
-) (./termpaper1.aux)
-\openout1 = `termpaper1.aux'.
+) (./lecture1butcool.aux)
+\openout1 = `lecture1butcool.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -128,25 +128,50 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (/Users/bastionii/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1] [2] [3] [4] [5] (./termpaper1.aux)
+) [1] [2] [3] [4] [5]
+LaTeX Font Info:    Calculating math sizes for size <17> on input line 315.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 315.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
+(Font)              size <8> substituted on input line 315.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 315.
+
+[6] [7] [8] [9] [10]
+Overfull \hbox (66.84258pt too wide) detected at line 596
+\OT1/cmr/m/n/17.28 4([])[[] \OML/cmm/m/it/17.28 a[]b[]\OT1/cmr/m/n/17.28 ([])] \OMS/cmsy/m/n/17.28 ^^T \OT1/cmr/m/n/17.28 4([]) [] \OML/cmm/m/it/17.28 a[]\OT1/cmr/m/n/17.28 ([]) [] \OML/cmm/m/it/17.28 b[]\OT1/cmr/m/n/17.28 ([])
+ []
+
+[11] [12] (./lecture1butcool.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
  ) 
 Here is how much of TeX's memory you used:
- 1696 strings out of 476064
- 24278 string characters out of 5791904
- 1932493 words of memory out of 5000000
- 23849 multiletter control sequences out of 15000+600000
- 566179 words of font info for 67 fonts, out of 8000000 for 9000
+ 1726 strings out of 476064
+ 24759 string characters out of 5791904
+ 1934493 words of memory out of 5000000
+ 23875 multiletter control sequences out of 15000+600000
+ 569698 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,7n,65p,300b,159s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on termpaper1.pdf (6 pages, 123520 bytes).
+ 56i,7n,65p,313b,163s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/bastionii/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on lecture1butcool.pdf (13 pages, 154782 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,94 @@
+CREATE TABLE User (
+    User_ID INT PRIMARY KEY,
+    First_Name VARCHAR(255),
+    Middle_Name VARCHAR(255),
+    Last_Name VARCHAR(255),
+    Email VARCHAR(255),
+    Pass_Hash VARCHAR(255),
+    User_Address VARCHAR(255),
+    Area_Code INT,
+    Phone_Number INT,
+    Username VARCHAR(255)
+);
+
+CREATE TABLE Purchase_Order (
+    Order_ID INT PRIMARY KEY,
+    User_ID INT,
+    Total_Amount DECIMAL(10, 2),
+    User_Address VARCHAR(255),
+    Area_Code INT,
+    Status VARCHAR(255),
+    Date_Purchased DATE,
+    FOREIGN KEY (User_ID) REFERENCES User(User_ID)
+);
+
+CREATE TABLE Payment_Plan (
+    Plan_ID INT PRIMARY KEY,
+    Order_ID INT,
+    Due_Date DATE,
+    Payment_Status VARCHAR(255),
+    Payment_Type VARCHAR(255),
+    Payment_Method VARCHAR(255),
+    Payment_Processor VARCHAR(255),
+    Transaction_ID INT,
+    Total_Amount DECIMAL(10, 2),
+    Amount_Paid DECIMAL(10, 2),
+    Remaining_Balance DECIMAL(10, 2),
+    Number_of_Installments INT,
+    Installments_Paid INT,
+    FOREIGN KEY (Order_ID) REFERENCES Purchase_Order(Order_ID)
+);
+
+CREATE TABLE Payment_Receipt (
+    Receipt_ID INT PRIMARY KEY,
+    Plan_ID INT,
+    Amount_Paid DECIMAL(10, 2),
+    FOREIGN KEY (Plan_ID) REFERENCES Payment_Plan(Plan_ID)
+);
+
+CREATE TABLE Supplier (
+    Supplier_ID INT PRIMARY KEY,
+    Name VARCHAR(255),
+    Address VARCHAR(255),
+    Phone_Number INT,
+    Email VARCHAR(255)
+);
+
+CREATE TABLE Item (
+    Item_ID INT PRIMARY KEY,
+    Cost DECIMAL(10, 2),
+    Item_Name VARCHAR(255),
+    Markup DECIMAL(10, 2),
+    Quantity INT,
+    Category_Num INT,
+    Item_Photo_URL VARCHAR(255),
+    Item_Description VARCHAR(255),
+    Supplier_ID INT,
+    FOREIGN KEY (Supplier_ID) REFERENCES Supplier(Supplier_ID)
+);
+
+CREATE TABLE Item_Warranty (
+    Warranty_ID INT PRIMARY KEY,
+    Order_ID INT,
+    Item_Name VARCHAR(255),
+    Terms VARCHAR(255),
+    Serial_SKU VARCHAR(255),
+    FOREIGN KEY (Order_ID) REFERENCES Purchase_Order(Order_ID)
+);
+
+
+CREATE TABLE Item_Review(
+    Review_ID int auto_increment,
+    User_ID int,
+    Item_ID int,
+    Order_ID int,
+
+    User_Review VARCHAR(255),
+    Star_Rating double,
+
+    PRIMARY KEY (Review_ID),
+    FOREIGN KEY (User_ID) REFERENCES User(User_ID),
+    FOREIGN KEY (Item_ID) REFERENCES Item(Item_ID),
+    FOREIGN KEY (Order_ID) REFERENCES Purchase_Order(Order_ID)
+
+);

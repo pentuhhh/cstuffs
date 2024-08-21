@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../C files/githubrepo"
+		},
+		{
+			"path": "../../../../../../opt/homebrew/var/www"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../../Library/Frameworks/Python.framework"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"__mutex_base": "c",
+			"variant": "c"
+		}
+	}
+}

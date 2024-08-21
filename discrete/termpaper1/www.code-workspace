@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../../opt/homebrew/var/www"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Discrete_Math_2"
+		},
+		{
+			"path": "../../../MCAV"
+		},
+		{
+			"path": "../../../touchbar-lyric"
+		},
+		{
+			"path": "../../../../../GitHub/Data-Structures-Algorithms/Data-Structures-Algorithms"
+		},
+		{
+			"path": "../../../../../GitHub/Object-Oriented-Programming"
+		}
+	],
+	"settings": {}
+}
